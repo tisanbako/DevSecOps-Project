@@ -294,13 +294,17 @@ terraform apply --auto-approve
               - Click on `Continue`
               - Run analysis on your project: Select `Other (for JS, TS, Go, Python, PHP, ...)`
               - What is your OS?: Select `Linux`
-              - `COPY` the Execute the Scanner and `SAVE` on your NodePad as well
+              - `COPY` the Execute the Scanner and `SAVE` on your NodePad as well (make sure you remove the value of -Dsonar.login=****) 
             - Generate a `Global Analysis Token`    *This is the Token you need for Authorization*
               - Click on the `User Profile` icon at top right of SonarQube
               - Click on `My Account`
+              - Click on Security
+                - Name the token (eg Nodejs-token),
+                - Type - Global analysis token
               - Generate Token:   *Generate this TOKEN and Use in the Next Step to Create The SonarQube Credential* 
               ![Sonar!](https://github.com/awanmbandi/realworld-microservice-project/blob/zdocs/images/sdsdsddsd.png) 
-              - Click `Generate` 
+              - Click `Generate`
+              - Copy the token and replace it for the value of -Dsonar.login 
 
           - ###### Store SonarQube Secret Token in Jenkins:
               - Navigate back to Jenkins http://JENKINS_PUBLIC_IP:8080
