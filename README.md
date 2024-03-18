@@ -289,8 +289,8 @@ terraform apply --auto-approve
               - Click on `Set Up`
                 - Click on `Locally` 
                 - Token Name ``NodeJS-WebApp-SonarQube-Token``
-                - **NOTE:** *Copy the TOKEN and SAVE somwhere on your NodePad*
               - Click on `Generate`
+                - **NOTE:** *Copy the TOKEN and SAVE somwhere on your NodePad*
               - Click on `Continue`
               - Run analysis on your project: Select `Other (for JS, TS, Go, Python, PHP, ...)`
               - What is your OS?: Select `Linux`
