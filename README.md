@@ -371,7 +371,7 @@ terraform apply --auto-approve
             - RUN the command: `aws eks update-kubeconfig --name <clustername> --region <region>`
             - COPY the Cluster KubeConfig: `cat ~/.kube/config` 
             - `COPY` everything the KubeConfig file content (Everything from apiVersion - command:aws) and save somewhere
-                - Create a File Locally
+                - Create a File Locally (On your local, you can use vscode to edit and save it)
                 - RUN: `touch ~/Downloads/kubeconfig-secret.txt`
                 - RUN: `vi ~/Downloads/kubeconfig-secret.txt`
                 - `PASTE` and `SAVE` the KubeConfig content in the file
