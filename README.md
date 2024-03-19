@@ -428,7 +428,7 @@ terraform apply --auto-approve
       - Add condition
    
     -  ``NOTE:`` Make sure to update the `SonarQube` stage in your `Jenkinsfile` and Test the Pipeline so your project will be visible on the SonarQube Project Dashboard.
-    - Click on `Projects` 
+    - On Sonarqube page Click on `Projects` 
     - Click on your project name `NodeJS-Webapp-Project` 
       - Click on `Project Settings`
       - Click on `Quality Gate`
@@ -437,7 +437,7 @@ terraform apply --auto-approve
     ![SonarQubeSetup3!](https://github.com/awanmbandi/realworld-microservice-project/blob/zdocs/images/sdvfsv.png)
 
 2)  ### Setup SonarQube Webhook to Integrate Jenkins (To pass the results to Jenkins)
-    - Click on `Administration` 
+    - On your Sonaqube page, Click on `Administration` 
     - Click on `Configuration` and Select `Webhook`
     - Click on `Create Webhook` 
       - Name: `jenkinswebhook`
