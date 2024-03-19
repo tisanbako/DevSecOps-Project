@@ -393,12 +393,13 @@ terraform apply --auto-approve
             - Open your `GitBash Terminal` or `MacOS Terminal` 
             - Navigate to the Location where your `Jenkins-CI` Server SSH Key is Stored *(Usually in **Downloads**)*
             - Run the Command `cat YOUR_SSH_KEY_FILE_NAME.pem`
-            - COPY the KEY content and Navigate back to Jenkins to store it...
+            - COPY the KEY content (from -----BEGIN RSA PRIVATE KEY----- to -----END RSA PRIVATE KEY-----)
+            - and Navigate back to Jenkins to store it...
         
          - ###### Create The ZAP Server SSH Key Credential in Jenkins
             - Navigate to the `Jenkins Global Credential Dash`
             - Click on `Create Credentials`
-            - Scope: Select `Global......`
+            - Kind: SSH username with private key
             - ID and Description: `OWASP-Zap-Credential`
             - Username: `ubuntu`
             - Private key: Select
