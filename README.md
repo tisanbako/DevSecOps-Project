@@ -584,6 +584,7 @@ kubectl get svc -n monitoring
 - Update `SonarQube projectName` in your `Jenkinsfile` On `Line 34`
 - Update the `SonarQube projectKey` in your `Jenkinsfile` On `Line 35`
 - Update the `DockerHub username` in the `Jenkinsfile` on `Line 62`, `Line 63` and `Line 70` provide Yours
+- Update your kubernetes Manifest (deploy-configs) check both the deployment files on the test and prod(on the Image line)
     
     - Log into Jenkins: http://Jenkins-Public-IP:8080/
     - Click on `New Item`
