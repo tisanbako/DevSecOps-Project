@@ -422,6 +422,11 @@ terraform apply --auto-approve
     ![SonarQubeSetup3!](https://github.com/awanmbandi/realworld-microservice-project/blob/zdocs/images/sdsdsdsd.png)
     
     - Add Quality to SonarQube Project
+      - Add condition on Overall code
+      - ### Quality Gate fails when( click on the drop down and search for the following)
+      - Bugs - value (15)(can be anything) 
+      - Add condition
+   
     -  ``NOTE:`` Make sure to update the `SonarQube` stage in your `Jenkinsfile` and Test the Pipeline so your project will be visible on the SonarQube Project Dashboard.
     - Click on `Projects` 
     - Click on your project name `NodeJS-Webapp-Project` 
