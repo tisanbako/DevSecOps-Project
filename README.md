@@ -438,7 +438,7 @@ terraform apply --auto-approve
 
 2)  ### Setup SonarQube Webhook to Integrate Jenkins (To pass the results to Jenkins)
     - On your Sonaqube page, Click on `Administration` 
-    - Click on `Configuration` and Select `Webhook`
+    - Click on `Configuration drop down` and Select `Webhook`
     - Click on `Create Webhook` 
       - Name: `jenkinswebhook`
       - URL: `http://Jenkins-Server-Private-IP:8080/sonarqube-webhook/`
