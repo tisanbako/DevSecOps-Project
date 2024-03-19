@@ -577,6 +577,7 @@ kubectl get svc -n monitoring
 
 ### Pipeline creation (Make Sure To Make The Following Updates First)
 - UPDATE YOUR ``Jenkinsfile``
+- check the git branch and url on line 23
 - Update your `OWASP Zap Server IP (Which is Jenkins IP)` in the `Jenkinsfile` on `Line 87`
 - Update the `EKS Worker Node IP` with yours in the `Jenkinsfile` on `Line 87`
 - Update your `Slack Channel Name` in the `Jenkinsfile` on `Line 104`
