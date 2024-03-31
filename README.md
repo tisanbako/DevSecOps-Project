@@ -1,4 +1,4 @@
-# DevSecOps CI/CD Pipeline Project Automation Arch
+# DevSecOps CI/CD Pipeline Project Automation Arch.
 ![ProjectArch](https://github.com/awanmbandi/realworld-microservice-project/blob/zdocs/images/DevSecOps-Project-Archas.png)
 
 ## Continuous Observability (Monitoring & Logging) Arch
