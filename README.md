@@ -1,6 +1,8 @@
 # DevSecOps CI/CD Pipeline Project Automation Arch
 ![ProjectArch](https://github.com/awanmbandi/realworld-microservice-project/blob/zdocs/images/DevSecOps-Project-Archas.png)
 
+![Pipeline](https://https://github.com/tisanbako/DevSecOps-Project/blob/main/blueocean.png)
+
 ## Continuous Observability (Monitoring & Logging) Arch
 ![PromGrafEFKArch](https://github.com/awanmbandi/realworld-microservice-project/blob/zdocs/images/prom-graf-efk.avif)
 
